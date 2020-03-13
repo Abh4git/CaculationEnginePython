@@ -1,8 +1,5 @@
-import abc
-import math
-import types
 import numpy
-from CalculationInterface import CaculationInterface
+from Calculation_Core.CalculationInterface import CaculationInterface
 
 # Class Responsible for NPV Calculation
 # Takes the parameters of InitialInvestment,

@@ -1,7 +1,7 @@
-from ICalculationFactory import CalculationTypeEnum
+from Calculation_Core.ICalculationFactory import CalculationTypeEnum
 from NPVCalculation import NPVCalculation
 from IRRCalculation import IRRCalculation
-from ICalculationFactory import CaculationFactoryInterface
+from Calculation_Core.ICalculationFactory import CaculationFactoryInterface
 
 class CalculationFactory(CaculationFactoryInterface):
     __instance = None

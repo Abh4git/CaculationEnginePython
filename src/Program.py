@@ -1,10 +1,9 @@
 from NPVCalculation import NPVCalculation
 from IRRCalculation import IRRCalculation
 
-from ICalculationFactory import CaculationFactoryInterface
-from ICalculationFactory import CalculationTypeEnum
+from Calculation_Core.ICalculationFactory import CalculationTypeEnum
 from CalculationFactory import CalculationFactory
-from ICalculationFactory import ROIInputs
+from Calculation_Core.ICalculationFactory import ROIInputs
 print("Hello Calculation World")
 print("-----------------------")
 # Instantiating the NPVCalculation class with
