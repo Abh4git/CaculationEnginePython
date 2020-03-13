@@ -7,11 +7,16 @@ from CalculationInterface import CaculationInterface
 # DiscountRate, CashInFlow, Number of Years
 class NPVCalculation(CaculationInterface):
 
-    def __init__(self,initialInvestment,discountRate,cashInflow,numberofyears):
+    def __init__(self,initialInvestment,discountRate,cashInflow,numberofyears, cashFlowsList):
         self._initalInvestment=initialInvestment
         self._discountRate = discountRate
         self._cashInflow = cashInflow
         self._numberofyears = numberofyears
+        self._cashFlowList = []
+        # for arg in args:
+
+        self._cashFlowList=cashFlowsList
+
         self._result=0
 
 # Properties to get result
@@ -34,7 +39,7 @@ class NPVCalculation(CaculationInterface):
         for i in range  (1,self._numberofyears+1):
             denominator = pow((1 + self._discountRate), i)
             resultInital += nominator / denominator
-            print (resultInital)
+#            print (resultInital)
         npv = resultInital - self._initalInvestment
         self.result=npv
         return True
