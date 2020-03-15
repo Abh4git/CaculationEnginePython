@@ -1,8 +1,23 @@
 import unittest
+import sys
+import os
+file_dir = os.path.dirname(__file__)
+sys.path.append(file_dir)
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+import os, sys; sys.path.append(os.path.dirname(os.path.realpath(__file__)))
+#print('\n'.join(sys.path))
+#sys.path.append("../src/Calculation_Core")
 
 from Calculation_Core.ICalculationFactory import CalculationTypeEnum
 from CalculationFactory import CalculationFactory
 from Calculation_Core.ICalculationFactory import ROIInputs
+
+
+
+
+sys.path.append("./src")
+
+
 
 class CalculationTests(unittest.TestCase):
     def test_NPVCalculation(self):
