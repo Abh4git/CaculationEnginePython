@@ -1,4 +1,4 @@
-# CalculationEngine in Python  
+# CalculationEngine in Python    
 
 ## Uses Factory Method Approach with Financial Calculations
 
@@ -18,21 +18,21 @@ In order to get started with the project:
 - Open PyCharm IDE  
 - Open src folder
 - Go to File -> Settings
-![Environment](/images/Settings_Project_Interpreter.png)
+![Environment](images/Settings_Project_Interpreter.png)
 - Setup Virtual Environment
 ![Environment](/images/virtual_env_setup.png)
 - Done With Virtual Environment
-![Environment](/images/Settings_Project_Interpreter_done.png)
+![Environment](images/Settings_Project_Interpreter_done.png)
 
 3. Install dependencies  
 
 - Go to Python Terminal and inside venv install from requirements.txt  
 pip install -r requirements.txt
-![Environment](/images/install_requirements.png)
+![Environment](images/install_requirements.png)
 
-4. Run the Program by clcking Run Program from IDE
+4. Run the Program by clcking Run Program from IDE  
 
-![Execution](/images/program_execution.png)
+![Execution](images/program_execution.png)
 
 
 
