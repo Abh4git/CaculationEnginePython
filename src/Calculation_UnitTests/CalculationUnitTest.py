@@ -13,8 +13,6 @@ from CalculationFactory import CalculationFactory
 from Calculation_Core.ICalculationFactory import ROIInputs
 
 
-
-
 sys.path.append("./src")
 
 
